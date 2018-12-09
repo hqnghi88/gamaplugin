@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="genstar.plugin.bundle-all.feature"
+      id="genstar.plugin.bundle.all.feature"
       label="GEN*GAMA"
       version="1.0.0.qualifier">
 
@@ -21,9 +21,10 @@
    </url>
 
    <plugin
-         id="genstar.plugin.bundle-all"
+         id="genstar.plugin.bundle.all"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

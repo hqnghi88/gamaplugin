@@ -212,8 +212,8 @@
   
   
   
- <module>../genstar.plugin.bundle-all</module> 
- <module>../genstar.plugin.bundle-all.feature</module> 
+ <module>../genstar.plugin.bundle.all</module> 
+ <module>../genstar.plugin.bundle.all.feature</module> 
  </modules>
  
 	<properties>
