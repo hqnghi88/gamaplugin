@@ -28,6 +28,19 @@
 	</distributionManagement>
 
 	 -->
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>p2Repo</id>
+			<url>file://./p2Repo</url>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>p2Repo</id>
+			<url>file://./p2Repo</url>
+		</snapshotRepository>
+	</distributionManagement>
+	 
 
 	<profiles>
 		<!-- This profile is used to upload the repo -->
