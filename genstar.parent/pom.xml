@@ -90,12 +90,12 @@
 
 	<distributionManagement>
 		<repository>
-			<uniqueVersion>true</uniqueVersion>
+			<uniqueVersion>false</uniqueVersion>
 			<id>p2Repo</id>
 			<url>file://./p2Repo</url>
 		</repository>
 		<snapshotRepository>
-			<uniqueVersion>true</uniqueVersion>
+			<uniqueVersion>false</uniqueVersion>
 			<id>p2Repo</id>
 			<url>file://./p2Repo</url>
 		</snapshotRepository>
