@@ -32,12 +32,12 @@
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
 			<id>p2Repo</id>
-			<url>file://./p2Repo</url>
+			<url>file://${project.build.directory}/p2Repo</url>
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
 			<id>p2Repo</id>
-			<url>file://./p2Repo</url>
+			<url>file://${project.build.directory}/p2Repo</url>
 		</snapshotRepository>
 	</distributionManagement>
 	 
@@ -49,13 +49,13 @@
 			<properties>
 				<!-- 
 				Properties relative to the distant host where to upload the repo 
-				-->
 				<ftp.url>scp://51.255.46.42</ftp.url>
 				<ftp.toDir>./var/www/gama_updates/experimental/oxygen</ftp.toDir>
+				-->
 				<!-- Relative path to the repo being uploaded 
 				-->				
-				<ftp.url>file://./p2Repo</ftp.url>
-				<ftp.toDir>./p2Repo</ftp.toDir>
+				<ftp.url>file://${project.build.directory}</ftp.url>
+				<ftp.toDir>p2Repo</ftp.toDir>
 				<repo.path>${project.build.directory}/repository/</repo.path>
 			</properties>
 

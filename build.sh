@@ -68,4 +68,7 @@ generate_p2updatesite_category(){
 
 cd genstar.parent &&
 mvn clean install -U &&
-cd -
+cd - &&
+cd genstar.p2updatesite &&
+mvn -U clean install -P p2Repo --settings ../settings.xml && 
+cd
