@@ -20,7 +20,7 @@ before_install:
 script: bash ./build.sh
 after_success: 
     - export SSHPASS=$USER_PWD 
-    - sh ./publish.sh
+    - bash ./publish.sh
 branches:
   only:
     - master

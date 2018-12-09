@@ -1,2 +1,2 @@
 #!/bin/bash
-pushToBintray.sh username apikey ctu ctu package version pathToP2Repo
+sh pushToBintray.sh hqnghi88 $BINTRAY ctu ctu genstar.plugin.bundle-all.feature 1.0.0 /
